@@ -15,4 +15,3 @@ end
 def self.least_popular_show
   self.lowest_rating
 end
-  
