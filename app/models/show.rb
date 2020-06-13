@@ -15,3 +15,7 @@ end
 def self.least_popular_show
   self.lowest_rating
 end
+
+def self.popular_shows
+  self.where(rating > 5)
+end
